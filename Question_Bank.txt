@@ -1,0 +1,97 @@
+To add new questions type **** (line 1) and the question type on the next line (line 2).
+    Question types: Multiple Choice (M), Fill in the Blank (F), Objective Question (O).
+
+Add perameters on the following lines. 
+    points, difficulty, answer space (line 3), question text (line 4), 
+    correct answer or number of possible answers for multiple choice (line 5),
+    possible answers for multiple choice (line 6),
+    and index of correct answer for multiple choice (line 7).
+
+
+****
+M
+5 2 0
+What is the capital of Texas?
+3
+Austin 
+Houston 
+Dallas
+0
+
+****
+F
+6 4 0
+%s is the capital of Texas.
+Austin
+
+****
+O
+7 5 2
+What is the capital of Texas?
+Austin
+
+****
+M
+5 2 0
+What is the capital of Washington?
+2
+Seattle 
+Olympia
+1
+
+****
+F
+6 4 0
+%s is the capital of Washington.
+Olympia
+
+****
+O
+7 5 2
+What is the capital of Washington?
+Olympia
+
+****
+M
+5 2 0
+What are the best toppings for pizza?
+3
+Ranch and Ketchup
+Green peppers and onions
+Pineapple and bacon
+1
+
+****
+F
+6 4 0
+%s are the best toppings for pizza.
+Green peppers and onions
+
+****
+O
+7 5 2
+What are the best toppings for pizza?
+Green peppers and onions
+
+****
+M
+5 2 0
+What is the largest country in the world?
+4
+China
+Russia
+The United States
+Brazil
+1
+
+****
+F
+6 4 0
+%s is the largest country in the world.
+Russia
+
+****
+O
+7 5 2
+What is the largest country in the world?
+Russia
